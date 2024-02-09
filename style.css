@@ -1,0 +1,21 @@
+.panels{
+    min-height: 100vh;
+    display: flex;
+}
+
+.panel{
+    background-color: blueviolet;
+    box-shadow: 0 0 25px white;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-position: center;
+    background-size: cover;
+    transition: flex linear 0.7s;
+}
+.open{
+    flex:5;
+}
