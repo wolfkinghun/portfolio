@@ -21,6 +21,20 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,143,44,1) 69%, rgba
         justify-content: center;
         align-items: center;
     }
+    input[type="checkbox"] {
+    content: url('https://images.pexels.com/photos/760645/pexels-photo-760645.jpeg?cs=srgb&dl=pexels-asif-methar-760645.jpg&fm=jpg');
+    display: block;
+    width: 30%;
+    height: 30%;
+}
+input[type="checkbox"]:checked {
+    content: url('https://lh3.googleusercontent.com/drive-storage/ANtge_HCZBSE4G-BTGHXZuBiLEUmZRk3cgbmYQixlp-LJ9q7Vq4YVMuUvryDXFelw14UnpI600P85zuplKgpHe1Wtv5ActtHtzu9TRFLQEkQ=h360');
+}
+.native-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 </style>
 <!--
 <h1>about page</h1>
@@ -30,7 +44,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,143,44,1) 69%, rgba
 <div class="main" align="center">
     <h1 style="margin-top: 10px;">Kaszas Istvan</h1>
     <div class="img">
-        <img src="https://images.pexels.com/photos/760645/pexels-photo-760645.jpeg?cs=srgb&dl=pexels-asif-methar-760645.jpg&fm=jpg" alt="" >
+        <input class="native-hidden" type="checkbox" />
+
+
+        <!--<img src="https://images.pexels.com/photos/760645/pexels-photo-760645.jpeg?cs=srgb&dl=pexels-asif-methar-760645.jpg&fm=jpg" alt="" >-->
     </div>
     <div class="card text-white  bg-success mb-3 information" style="max-width: 18rem; ">
         <div class="card-header">Fontos információk</div>
