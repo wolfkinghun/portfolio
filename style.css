@@ -4,6 +4,7 @@
 }
 
 .panel{
+    margin-top: 15px;
     background-color: blueviolet;
     box-shadow: 0 0 25px white;
     color: white;
@@ -18,4 +19,9 @@
 }
 .open{
     flex:5;
+}
+body{
+    padding: 10px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgb(7, 40, 41) 0%, rgb(52, 253, 45) 100%);
 }
